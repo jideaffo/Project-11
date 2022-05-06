@@ -58,6 +58,9 @@ Configure a Post-build job to save all (**) files, like you did it in Project 9
 
 `ls /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive`
 
+![alt text](./images/Build.PNG)
+
+
 Note: Trigger Jenkins project execution only for /main (master) branch
 
 Now your setup will look like this:
