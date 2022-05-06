@@ -63,6 +63,9 @@ Configure a Post-build job to save all (**) files, like you did it in Project 9
 
 Note: Trigger Jenkins project execution only for /main (master) branch
 
+![alt text](./images/Build1.PNG)
+
+
 Now your setup will look like this:
 
 ![alt text](./images/Newsetup.PNG)
@@ -204,9 +207,11 @@ You can go to each of the servers and check if wireshark has been installed by r
 
 
 
-Your updated with Ansible architecture now looks like this:
+Your updated Architecture with Ansible now looks like this:
 
 ![alt text](./images/updatedArchitecture.PNG)
+
+
 
 ![alt text](./images/UpdatedArchitecture1.PNG)
 
@@ -278,6 +283,8 @@ Wireshark on 172.31.8.40 web server
 ![alt text](./images/wiresharkOnUbuntu.PNG)
 
 
+## Optional step – Repeat once again
+Update your ansible playbook with some new Ansible tasks and go through the full checkout -> change codes -> commit -> PR -> merge -> build -> ansible-playbook cycle again to see how easily you can manage a servers fleet of any size with just one command!
 
 
 # Congratulations
